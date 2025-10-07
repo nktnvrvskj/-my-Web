@@ -1,0 +1,139 @@
+title {
+    font-family: mine;
+}
+
+nav {
+    top: 25px;
+    right: 10px;
+}
+
+.gif1 {
+    background-image: url(../imeges/tenor.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gif4 {
+    background-image: url(https://store-images.s-microsoft.com/image/apps.60323.14581193029730121.3bde2745-c5bc-4659-9b31-32749bd5129f.66d40a75-671b-4612-aa8b-22aa289863e4);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gif3 {
+    background-image: url(https://avatars.mds.yandex.net/i?id=8b6bd71479f83e2ff2e453d934f130c8_l-5233602-images-thumbs&ref=rim&n=13&w=969&h=970);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section {
+    text-align: center;
+    height: 100%;
+    padding: 20px;
+}
+
+section > div > p {
+    background-color: rgba(0, 0, 0, 0.479);
+    border-radius: 5%;
+}
+
+section > div > h1 {
+    background-color: rgba(0, 0, 0, 0.479);
+    border-radius: 5%;
+}
+
+h1 {
+    font-weight: 40xp;
+}
+
+section > div > a > button {
+    border: 0px solid rgb(21, 117, 21);
+    color: white;
+    padding: 20px 40px;
+    border-radius: 50px;
+    background-color: rgb(21, 117, 21);
+    transition: all 0.3s ease;
+}
+
+section > div > a > button:hover {
+    border: 1px solid rgb(21, 117, 21);
+    background-color: transparent;
+}
+
+section > a > button {
+    background: #4CAF50;
+    color: white;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 60px;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 5px 20px rgba(76, 175, 80, 0.4);
+}
+
+section > a > button:hover {
+    background-color: transparent;
+}
+
+.comments-s {
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.commen {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10%;
+    width: 30%;
+    background-color: rgb(189, 185, 185);
+    background-image: url(../imeges/v833-tang-26.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.comment-th {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.comment-r {
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.comment-r > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px 15px;
+}
+
+.commenter-na {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 300px;
+}
+
+.comment-text {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.comment-str {
+    color: rgb(0, 0, 0);
+}

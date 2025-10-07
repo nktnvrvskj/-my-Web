@@ -1,0 +1,19 @@
+@font-face {
+    font-family: mine;
+    src: url(min.ttf);
+}
+h1,button{
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+    font-family: mine;
+}
+button{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    background-color: coral;
+    padding: 20px 40px;
+    border-radius: 20px;
+    
+}
+
+

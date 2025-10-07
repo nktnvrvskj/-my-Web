@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>themeswitch</title>
+    <link rel="stylesheet" href="cssfojs/theme.css">
+</head>
+<body>
+    <header>
+        <a id="aoftheweb" href="">сайт</a>
+        <button id="themeThoggle">Темный</button>
+    </header>
+
+    <main>
+        <p>Мой сайт</p>
+
+        <section id="taskSection">
+            <h2>Список задач</h2>
+            <input type="text" id="taskInput" placeholder="Введите задачу">
+            <button id="addTaskBtn">Добавить</button>
+            <ul id="taskList"></ul>
+
+            <div id="counters">
+                Всего задач: <span id="totalTasks">0</span><br>
+                Выполнено: <span id="completedTasks">0</span>
+            </div>
+        </section>
+    </main>
+
+    <script src="tasks.js"></script>
+</body>
+</html>
