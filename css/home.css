@@ -28,18 +28,18 @@ nav {
     background-position: center;
 }
 
-section {
+.secti {
     text-align: center;
     height: 100%;
     padding: 20px;
 }
 
-section > div > p {
+.secti > div > p {
     background-color: rgba(0, 0, 0, 0.479);
     border-radius: 5%;
 }
 
-section > div > h1 {
+.secti > div > h1 {
     background-color: rgba(0, 0, 0, 0.479);
     border-radius: 5%;
 }
@@ -48,7 +48,7 @@ h1 {
     font-weight: 40xp;
 }
 
-section > div > a > button {
+.secti > div > a > button {
     border: 0px solid rgb(21, 117, 21);
     color: white;
     padding: 20px 40px;
@@ -57,12 +57,12 @@ section > div > a > button {
     transition: all 0.3s ease;
 }
 
-section > div > a > button:hover {
+.secti > div > a > button:hover {
     border: 1px solid rgb(21, 117, 21);
     background-color: transparent;
 }
 
-section > a > button {
+.secti > a > button {
     background: #4CAF50;
     color: white;
     padding: 20px 50px;
@@ -76,7 +76,7 @@ section > a > button {
     box-shadow: 0 5px 20px rgba(76, 175, 80, 0.4);
 }
 
-section > a > button:hover {
+.secti > a > button:hover {
     background-color: transparent;
 }
 
@@ -136,4 +136,71 @@ section > a > button:hover {
 
 .comment-str {
     color: rgb(0, 0, 0);
+}
+
+
+.donate{
+    width: 100%;
+    background-color: wheat;
+    padding: 100px 0;
+}
+
+.donate-cont{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.donate-card > h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #000;
+    margin-top: 30%;
+    letter-spacing: 1;
+}
+.donate-card{
+    background-color: #ffffff;
+    width: 16%;
+    padding: 2%;
+    color: #000;
+}
+.donate-card > p{
+    color: #000;
+}
+.donate-card > img{
+    width: 100%;
+    border-radius: 10px;
+}
+.price{
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: 700;
+    letter-spacing: 1;
+}
+
+.buy{
+    background-color: #4CAF50;
+    
+    color: white;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px 0;
+    font-weight: 500;
+    font-size: 17px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+}
+.buy:hover{
+    background-color: transparent;
+    border: 2px solid;
+    color: #4CAF50
+}
+.skid{
+    text-decoration: line-through double;
 }
