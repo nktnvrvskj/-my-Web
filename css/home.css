@@ -26,12 +26,13 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    padding: 100% 0;
 }
 
 .secti {
     text-align: center;
     height: 100%;
-    padding: 20px;
+    padding: 25px;
 }
 
 .secti > div > p {
@@ -82,7 +83,6 @@ h1 {
 
 .comments-s {
     padding: 10px;
-    margin-bottom: 20px;
     color: white;
 }
 
@@ -142,7 +142,7 @@ h1 {
 .donate{
     width: 100%;
     background-color: wheat;
-    padding: 100px 0;
+    padding: 1px 0 10px 0
 }
 
 .donate-cont{
@@ -153,16 +153,19 @@ h1 {
     align-items: center;
     
 }
-.donate-card > h3{
+.donate > h3{
     font-size: 18px;
     text-transform: uppercase;
+    display: flex;
+    justify-content: center;
     text-align: left;
     color: #000;
-    margin-top: 30%;
+    margin-top: 10%;
     letter-spacing: 1;
 }
 .donate-card{
     background-color: #ffffff;
+    border-radius: 5%;
     width: 16%;
     padding: 2%;
     color: #000;
@@ -201,6 +204,6 @@ h1 {
     border: 2px solid;
     color: #4CAF50
 }
-.skid{
+.price-old{
     text-decoration: line-through double;
 }

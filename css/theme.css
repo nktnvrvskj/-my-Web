@@ -2,29 +2,90 @@ body{
     background-color: white;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0%;
+    margin: 0;
     padding: 20px;
-    transition: background-color 0.3s, color 0.3s;
+    transition: 0.3s;
 }
 body.dark-theme{
-    background-color: black;
+    background-color: #121212;
     color: white;
 }
 header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    height: 80px;
-    width: 100%;
+    background: #f0f0f0;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
-#themeToggle{
-    padding: 20px 25px;
-    background-color: #007bff;
+.dark-theme > header{
+    background: #1e1e1e;
+}
+
+#aoftheweb{
+    text-decoration: none;
+    background: dodgerblue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+#aoftheweb:hover {
+    background: #0070e0;
+}
+#themeThoggle {
+    background: #007bff;
     color: white;
     border: none;
-    border-radius: 5px;
+    padding: 10px 20px;
+    border-radius: 20px;
     cursor: pointer;
 }
-.dark-theme #themeToggle{
-    background-color: #6c757d;
+#themeThoggle:hover {
+    background: #0056b3;
+}
+main {
+    max-width: 600px;
+    margin: auto;
+    background: #fafafa;
+    padding: 20px;
+    border-radius: 10px;
+}
+.dark-theme > main {
+    background: #1e1e1e;
+}
+#taskInput {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#addTaskBtn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+}
+#addTaskBtn:hover {
+    background: #0056b3;
+}
+#taskList {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+#taskList > li {
+    background: #e6f0ff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.dark-theme #taskList li {
+    background: #333;
+}
+#counters {
+    margin-top: 15px;
+    font-weight: bold;
 }
