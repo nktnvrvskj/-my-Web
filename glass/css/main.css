@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(85px);
+    padding: 3% 5%;
+}
+
+a, p, h1, h2, h3, button, input{
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+.glass{
+    background-color: rgba(255, 255, 255, 0.192);
+    backdrop-filter: blur(20px);
+    border-radius: 30px;
+    border: 2px solid rgba(181, 181, 181, 0.404);
+    padding: 2%;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 51px;
+}
+header > .left{
+    width: 20%;
+}
+.search{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(8px);
+    border-radius: 100px;
+    padding: 0 20px;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.144);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.144);
+}
+.search > p{
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.832);
+}
+header > .right{
+    width: 77%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+header > .right > nav{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2%;
+}
+header > .right > nav > a{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 0 25px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+    border: 1.5px solid transparent;
+    
+}
+
+header > .right > nav > a:hover{
+    background-color: rgba(255, 255, 255, 0.144);
+    border: 2px solid rgba(255, 255, 255, 0.144);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.144);
+}
+
+header > .right > nav > .actove{
+    background-color: rgba(255, 255, 255, 0.144);
+    backdrop-filter: blur(4px);
+    border: 2px solid rgba(255, 255, 255, 0.144);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.144);
+}
+
+.notification{
+    width: 51px;
+    height: 52px;
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 0.144);
+    backdrop-filter: blur(4px);
+    transition: all 0.3s ease;
+    border: 1.5px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.notification:hover{
+    border: 2px solid rgba(255, 255, 255, 0.144);
+}
+.notification > .fa-bell{
+    color: white;
+    font-size: 19;
+    margin-right: 1.5px;
+    
+}
+header > .right > .user{
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.144);
+    backdrop-filter: blur(4px);
+    width: 18%;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0 8px;
+    d
+}
+header > .right > .user > img{
+    height: 75%;
+    border-radius: 100px;
+}
+.nick-cont{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nick-cont > .nick{
+    margin: 0;
+    font-weight: 500;
+    font-size: 19px;
+}
+.nick-cont > .tag{
+    font-size: 15px;
+    font-weight: 200;
+    margin: 0;
+    color: rgb(218, 218, 218);
+}
