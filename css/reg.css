@@ -45,7 +45,7 @@ input::placeholder{
 }
 
 
-.login-btn{
+.reg-btn{
     background-color: #4CAF50;
     
     color: white;
@@ -60,7 +60,7 @@ input::placeholder{
     cursor: pointer;
 
 }
-.login-btn:hover{
+.reg-btn:hover{
     background-color: transparent;
     border: 2px solid;
     color: #4CAF50
