@@ -1,27 +1,34 @@
 main{
     width: 100%;
-    margin-top: 1.5%;
+    margin-top: 2%;
     display: flex;
     justify-content: space-between;
+    height: 94%;
 }
 
 .side-bar{
     width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 .trailers{
-    width: 73%;
     background-color: rgba(255, 255, 255, 0.35);
     backdrop-filter: blur(8px);
-    border-radius: 10px;
-    padding: 20px;
+    border-radius: 20px;
+    padding: 5%;
+    height: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     color: white;
     border: 2px solid rgba(255, 255, 255, 0.144);
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.144);
 }
-
 .trailers > h2{
     margin: 0;
-    margin-bottom: 14px;
     font-size: 18px;
     
 }
@@ -29,20 +36,19 @@ main{
     background-image: url("../images/vDWnNMp.webp");
     background-size: cover;
     border-radius: 10px;
-    height: 17%;
     background-position: bottom center;
     display: flex;
     align-items: end;
+    height: 42%;
 }
 .trailer-card2{
     background-image: url("../images/9dfb4d85c9668000c974362046651771.jpg");
     background-size: cover;
     border-radius: 10px;
-    height: 17%;
     background-position: bottom center;
     display: flex;
     align-items: end;
-    margin-top: 20px;
+    height: 42%;
 }
 
 .gradient-line{
@@ -67,18 +73,26 @@ main{
 }
 
 .continue{
-    width: 73%;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.35);
     backdrop-filter: blur(8px);
     border-radius: 10px;
-    padding: 40px 20px;
+    padding: 5%;
+    width: 90%;
     color: white;
     border: 2px solid rgba(255, 255, 255, 0.144);
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.144);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .main-content{
     width: 73%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .continue > h2{
     margin: 0;
@@ -88,14 +102,13 @@ main{
 }
 .conti-line1, .conti-line2, .conti-line3{
     display: flex;
-    height: 8%;
+    height: 27%;
     width: 100%;
     justify-content: center;
     align-items: center;
     gap: 18px;
-    margin-top: 14px;
 }
-.conti-line1 > img {
+.conti-line2 > img,.conti-line3 > img,.conti-line1 > img {
     height: 100%;
     width: 29%;
     border-radius: 10px;
@@ -117,4 +130,163 @@ main{
     backdrop-filter: blur(10px);
     padding: 12px 11px;
     border-radius: 100px;
+}
+
+.banner{
+    width: 94%;
+    height: 44%;
+    border-radius: 20px;
+    padding: 3%;
+    border: 2px solid rgba(255, 255, 255, 0.144);
+    background-image: linear-gradient(rgba(75, 15, 15, 0.582),rgba(71, 71, 12, 0.541)) , url("../images/3a5db473940f60d3302151b48e68380f.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: end;
+}
+.banner > .inside{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.left-ins{
+    width: 55%;
+}
+.right-ins{
+    width: 45%;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+.left-ins > .tags{
+    display: flex;
+    gap: 10px;
+}
+.left-ins > .tags > p{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.160);
+    backdrop-filter: blur(8px);
+    padding: 7px 20px;
+    border-radius: 100px;
+    border: 2px solid rgba(255, 255, 255, 0.144);
+    margin: 0;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+    margin-top: 10px;
+}
+.left-ins > .desc{
+    color: rgba(255, 255, 255, 0.712);
+    font-weight: 200;
+}
+.left-ins > .btns{
+    display: flex;
+    gap: 15px;
+}
+.left-ins > .btns > a{
+    background-color: rgba(90, 90, 90, 0.342);
+    backdrop-filter: blur(10px);
+    padding: 12px 11px;
+    border-radius: 100px;
+    color: white;
+    transition: all 0.3s ease;
+}
+.left-ins > .btns > a:hover{
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.377);
+}
+.right-ins > a{
+    background-color: rgba(90, 90, 90, 0.342);
+    backdrop-filter: blur(10px);
+    padding: 12px 11px;
+    border-radius: 100px;
+    color: white;
+    transition: all 0.3s ease;
+}
+.right-ins > a:hover{
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.377);
+}
+
+.trands{
+    margin-top: 7%;
+    width: 100%;
+    height: 42%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.trand-card1{
+    background-image:linear-gradient(rgba(75, 15, 15, 0.356),rgba(71, 71, 12, 0.356)) , url(../images/discord-anime-pfp-hair-clip-j6iw3ca3l6x0r0sr.jpg);
+}
+.trand-card2{
+    background-image:linear-gradient(rgba(75, 15, 15, 0.356),rgba(71, 71, 12, 0.356)) , url(../images/2a3ba7d062ae395fbd70cce6850d5866.jpg);
+}
+.trand-card3{
+    background-image:linear-gradient(rgba(75, 15, 15, 0.356),rgba(71, 71, 12, 0.356)) , url(../images/cool-anime-iphone-0lsjdg8d5bjz5ssh.jpg);
+}
+.trand-card4{
+    background-image:linear-gradient(rgba(75, 15, 15, 0.356),rgba(71, 71, 12, 0.356)) , url(../images/orig.jpg);
+}
+.trand-card1,.trand-card2,.trand-card3,.trand-card4{
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.062);
+    padding: 2%;
+    height: 85%;
+    width: 16%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.trands .left{
+    margin-left: 10%;
+    margin-bottom: 10%;
+    width: 60%;
+}
+.trands .left > .ganre{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.160);
+    backdrop-filter: blur(8px);
+    padding: 7px 20px;
+    border-radius: 100px;
+    border: 2px solid rgba(255, 255, 255, 0.144);
+    margin: 0;
+    width: fit-content;
+    font-size: 14px;
+}
+.trands .left > h3{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 0;
+    margin-top: 5px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.trands .left > .desc{
+    color: rgba(255, 255, 255, 0.856);
+    font-weight: 200;
+    font-size: 12px;
+}
+.trands .left > a{
+    width: fit-content;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.trands .right{
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+.trands-play-btn{
+    background-color: rgba(90, 90, 90, 0.137);
+    backdrop-filter: blur(10px);
+    padding: 12px 11px;
+    border-radius: 100px;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.137);
+    transition: all 0.3s ease;
 }
